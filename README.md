@@ -77,6 +77,7 @@ LLM Generates Contextual Answer
 
 ## 🖼 Architecture Diagram
 
+![Architecture Diagram](https://github.com/SSking532/talk_to_syllabus/blob/main/architecture.png.png?raw=true)
 
 ---
 
