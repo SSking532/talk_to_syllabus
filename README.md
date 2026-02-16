@@ -60,53 +60,23 @@ Groq LLM
 ## 🔄 System Workflow
 
 User Uploads PDF
-        ↓
+       ->
 Text Extraction & Chunking
-        ↓
+       ->
 Embedding Generation
-        ↓
+        ->
 Vector Database Storage
-        ↓
+        ->
 User Question Input
-        ↓
+        ->
 Semantic Retrieval
-        ↓
+       ->
 LLM Generates Contextual Answer
 
 ---
 
 ## 🖼 Architecture Diagram
 
-
-+-------------------+
-|       Student      |
-+---------+---------+
-          |
-          v
-+-------------------+
-|   Streamlit UI    |
-+---------+---------+
-          |
-          v
-+-------------------+
-|   RAG Pipeline    |
-+---------+---------+
-          |
-          v
-+-------------------+
-|  Vector Database  |
-|      (FAISS)      |
-+---------+---------+
-          |
-          v
-+-------------------+
-|     Groq LLM      |
-+---------+---------+
-          |
-          v
-+-------------------+
-|       Answer      |
-+-------------------+
 
 ---
 
