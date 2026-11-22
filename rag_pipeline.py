@@ -93,7 +93,7 @@ def ask_question(question):
     query_embedding = np.array(query_embedding).astype("float32")
 
     # Retrieve the two most relevant chunks
-    k = min(2, len(stored_texts))
+    k = min(5, len(stored_texts))
 
     D, I = vector_store.search(query_embedding, k=k)
 
