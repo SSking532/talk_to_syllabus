@@ -105,6 +105,8 @@ def ask_question(question):
             context_chunks.append(stored_texts[index])
 
     context = "\n\n".join(context_chunks)
+    st.write("DEBUG: Retrieved Context")
+    st.text(context)
 
     prompt = f"""
 You are SyllabAI, an academic syllabus assistant.
